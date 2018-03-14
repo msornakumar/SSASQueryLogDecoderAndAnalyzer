@@ -36,4 +36,4 @@ This is SSAS project which is built on the Dimension model created and loaded by
 
 Open the SSAS project , SSASQueryLogAnalyzer and Point to the Dimensional database created by the SSIS package.
 
-*** Note : This project has been upgraded to work with Visual Studio 2015 and SQL Server 2016 
+**Note : This project has been upgraded to work with Visual Studio 2015 and SQL Server 2016 
