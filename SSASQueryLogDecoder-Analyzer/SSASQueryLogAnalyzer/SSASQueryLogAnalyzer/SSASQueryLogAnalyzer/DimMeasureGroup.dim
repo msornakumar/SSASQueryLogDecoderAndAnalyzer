@@ -1,0 +1,252 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="64ba538a-e693-49b7-8ddd-c1d8ba77d8b1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Measure Group</ID>
+  <Name>DimMeasureGroup</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1805" scrolltop="-5437" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7699" y="15875" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="DimMeasureGroup" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4048" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000d00f000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimMeasureGroup" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1805</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5437</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="114">
+            <Shape Id="Cube Measure Group Id" Expanded="false">
+              <Attributes>
+                <Attribute Id="Cube Measure Group Id" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Cubename" Expanded="false">
+              <Attributes>
+                <Attribute Id="Cubename" />
+              </Attributes>
+              <Position x="167" y="20" />
+            </Shape>
+            <Shape Id="Database Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Database Name" />
+              </Attributes>
+              <Position x="315" y="20" />
+            </Shape>
+            <Shape Id="Server Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Server Name" />
+              </Attributes>
+              <Position x="462" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="5bbd5b4a-c0d1-44fd-a095-d4d832608b9d">
+    <DataSourceViewID>SSASQueryLogAnalyzer</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="de2984c3-d48f-430d-9ffa-2eab593b4c96">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="8381971c-6e9d-436e-9513-738866f8c674">
+      <ID>Cube Measure Group Id</ID>
+      <Name>MeasureGroup</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e4cb9133-bb40-47c7-92d7-fefd0042d37a">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0956c282-ebcc-425e-b345-02fe207128a2">
+            <TableID>dbo_DimMeasureGroup</TableID>
+            <ColumnID>CubeMeasureGroupId</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="082219f0-5154-4501-a8dc-f8cca1d71c83">
+        <DataType>WChar</DataType>
+        <DataSize>128</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="7b29702c-1eb4-4994-8080-e3e8b35b9b78">
+          <TableID>dbo_DimMeasureGroup</TableID>
+          <ColumnID>MeasureGroupName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="728304a1-a36d-4de6-9965-218f25de295f">
+          <AttributeID>Cubename</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Cube</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+    </Attribute>
+    <Attribute dwd:design-time-name="ea12ad35-668c-451f-a1b6-4e637344f2cf">
+      <ID>Server Name</ID>
+      <Name>Server</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2c18fa87-be80-43d6-bb32-243084267680">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="521afcb9-54dc-4471-aae7-1c15754a67d2">
+            <TableID>dbo_DimMeasureGroup</TableID>
+            <ColumnID>ServerId</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="7b92589d-430f-4084-aaea-ceb905979b92">
+        <DataType>WChar</DataType>
+        <DataSize>128</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="7ff25051-171e-4c9d-860f-d6cf5bbb3506">
+          <TableID>dbo_DimMeasureGroup</TableID>
+          <ColumnID>ServerName</ColumnID>
+        </Source>
+      </NameColumn>
+    </Attribute>
+    <Attribute dwd:design-time-name="ca3c5272-87ab-4133-91ed-6e966dfe9fea">
+      <ID>Database Name</ID>
+      <Name>Database</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8bce1bed-084e-4ecd-95f3-f16694c255b3">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a5de6f75-e5ff-4276-820e-ff23de868043">
+            <TableID>dbo_DimMeasureGroup</TableID>
+            <ColumnID>DatabaseId</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="a6acbce5-6ef9-4f87-b003-a85e6c72657a">
+        <DataType>WChar</DataType>
+        <DataSize>128</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="9c611f08-7b6f-4d56-aafe-939ea8c62a75">
+          <TableID>dbo_DimMeasureGroup</TableID>
+          <ColumnID>DatabaseName</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="665fadaf-0e59-4bf9-804b-d701444b934f">
+          <AttributeID>Server Name</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Server</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+    </Attribute>
+    <Attribute dwd:design-time-name="ff43c349-4331-49ab-ae94-9405ed1c8a75">
+      <ID>Cubename</ID>
+      <Name>Cube</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cd466f88-731b-42dd-b427-fcec248dfa30">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2a458712-a21c-4660-8e31-6fdb8ad3c513">
+            <TableID>dbo_DimMeasureGroup</TableID>
+            <ColumnID>CubeId</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="3da1a77e-c599-4533-9aef-59085c477762">
+        <DataType>WChar</DataType>
+        <DataSize>128</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="865c7a46-96fe-4cd3-82c3-7d9aaa4cb6b4">
+          <TableID>dbo_DimMeasureGroup</TableID>
+          <ColumnID>Cubename</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="8306f04a-7a65-49f1-87c4-5fd093598e3e">
+          <AttributeID>Database Name</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>Database</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="8c02e1f1-3f4e-4799-9d85-45558a94f373">
+      <ID>Hierarchy</ID>
+      <Name>ServerMeasureGroupHierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="d7d43f97-8e8a-4dd9-b529-f7c995b85c27">
+          <ID>Server</ID>
+          <Name>Server</Name>
+          <SourceAttributeID>Server Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="6911bc4f-2019-4bbb-9218-7f5de8577d8c">
+          <ID>Database</ID>
+          <Name>Database</Name>
+          <SourceAttributeID>Database Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="4dae0ff6-1dbc-49ed-8a1a-9537838fe99e">
+          <ID>Cube</ID>
+          <Name>Cube</Name>
+          <SourceAttributeID>Cubename</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="4bba0381-13bb-4b46-9514-6cb52df92cd0">
+          <ID>MeasureGroup</ID>
+          <Name>MeasureGroup</Name>
+          <SourceAttributeID>Cube Measure Group Id</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+</Dimension>

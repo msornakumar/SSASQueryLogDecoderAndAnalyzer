@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SSASQueryLogAnalyzer</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>9YQj6nLaAh7X9U/uJyKTuw==5/29/2011 12:15:13 AM5/29/2011 12:15:13 AM</TimeStamp>
+        <ID>
+          <String>SSASQueryLogAnalyzer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>IbYXbK653C0pj45Rj3fM7w==5/29/2011 1:42:40 AM5/29/2011 12:15:31 AM</TimeStamp>
+        <ID>
+          <String>SSASQueryLogAnalyzer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pgpKDXeVPls0gyHbz3EcdQ==5/29/2011 1:44:02 AM5/29/2011 12:32:24 AM</TimeStamp>
+        <ID>
+          <String>Dim Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Lb5aLGDVZrXOi6OfcjgWFw==5/29/2011 1:46:31 AM5/29/2011 12:32:24 AM</TimeStamp>
+        <ID>
+          <String>Dim Dimension</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ktWESzAaJBj+GBtVdODmkQ==5/29/2011 12:54:49 AM5/29/2011 12:32:24 AM</TimeStamp>
+        <ID>
+          <String>Dim Measure Group</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LDTM8Zr0Dprr0iR64pkSzw==5/29/2011 1:54:35 AM5/29/2011 12:32:24 AM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>7XJrjuPEGY6CRuDQsXncHw==5/29/2011 12:51:01 AM5/29/2011 12:32:24 AM</TimeStamp>
+        <ID>
+          <String>Dim User</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>qSyeV0U+Dg/s27k00QRpkQ==5/29/2011 1:44:02 AM5/29/2011 12:32:24 AMk78CzASIOMheoK8YouyG7Q==5/29/2011 12:52:21 AM5/29/2011 12:32:24 AM</TimeStamp>
+        <ID>
+          <String>SSASQueryLogAnalyzer</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>xhwyrygXPgX2jHJr+lRZnQ==5/29/2011 12:07:43 AM5/29/2011 12:07:43 AM</TimeStamp>
+      <ID>
+        <String>SSASQueryLogAnalyzer</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2011-05-28T20:24:44Z</LastDeployed>
+</DeploymentSnapshot>

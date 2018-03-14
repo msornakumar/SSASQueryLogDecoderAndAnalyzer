@@ -1,0 +1,45 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="973bd785-fe30-4833-be99-485f515b9a5b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>SSASQueryLogAnalyzer</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Fact Cube Usage</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="2deaff63-fda1-47ae-a6b8-0b8be4c34dfd">
+          <ID>Fact Cube Usage</ID>
+          <Name>Fact Cube Usage</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="272fc9fa-27b9-4d5c-ab4b-98b266aeaa57">
+            <DataSourceViewID>SSASQueryLogAnalyzer</DataSourceViewID>
+            <TableID>dbo_FactCubeUsage</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>CubeUsage</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="e317973b-85a1-46a6-84f6-ee93302e1ece">
+          <ID>Fact Cube Usage</ID>
+          <Name>Fact Cube Usage</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="0b06182d-7f19-4cee-b0b8-4a9886688a96">
+            <DataSourceViewID>SSASQueryLogAnalyzer</DataSourceViewID>
+            <TableID>dbo_FactCubeUsage</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
